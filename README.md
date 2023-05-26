@@ -25,7 +25,7 @@ The CSS file includes a <code>:root</code> section for **easy customization base
 
 ```
 :root {
-    --cf7-font: 'Outfit';
+    --cf7-font: inherit;
     --cf7-font-size: 16px;
     --cf7-font-weight: 300;
     --cf7-labels: #5a6e81;
@@ -43,14 +43,28 @@ The CSS file includes a <code>:root</code> section for **easy customization base
 
 <h3>Installation</h3>
 
-**Option 1)** Paste the contents of "style.css" into your WordPress Customizer -> Custom CSS
+**Option 1.** Paste the contents of "style.css" into your WordPress Customizer -> Custom CSS
 <br>(or any other global Custom CSS field available in your theme)
 <br>
 <br>
-**Option 2)** Create a separate "cf7-styles.css" file in your (child) theme folder and enqueue it in functions.php
+**Option 2.** Create a separate "cf7-styles.css" file in your (child) theme folder and enqueue it in functions.php
 
 ```
 <?php
 wp_enqueue_style('cf7-styles', get_template_directory_uri() . "/cf7-styles.css", array(), '1.0');
 ?>
+```
+
+<h3>Note</h3>
+
+The font used in the preview is a Google Font called [Outfit](https://fonts.google.com/specimen/Outfit). In case you want to keep it, you can append to the file:
+
+```
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap'); 
+```
+
+And don't forget to change it in the <code>:root</code> as well:
+```
+:root {
+    --cf7-font: 'Outfit';
 ```
