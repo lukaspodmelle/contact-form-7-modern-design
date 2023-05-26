@@ -1,4 +1,4 @@
-# Complete Design Style Sheet for Contact Form 7
+# Complete Modern Design for Contact Form 7
 Modern look for the [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) WordPress plugin – a complete CSS style sheet
 <br>
 <br>
