@@ -2,7 +2,8 @@
 Modern look for the [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) WordPress plugin – a complete CSS style sheet
 <br>
 <br>
-![CF7 Modern Design - Overview](https://github.com/lukaspodmelle/contact-form-7-modern-design/assets/132982113/da6a44df-f658-400e-b343-9942a90d28e1)
+![CF7 Modern Design - Overview](https://github.com/lukaspodmelle/contact-form-7-modern-design/assets/132982113/daa5a5a1-da19-4e45-bba4-9d60b3a6cf4e)
+
 
 <h3>Description</h3>
 
