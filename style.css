@@ -99,8 +99,8 @@
 .wpcf7 select
 {
     border: 1px solid #D5E0EB;
-	background-color: #ffffff;
-	border-radius: 6px;
+    background-color: #ffffff;
+    border-radius: 6px;
     line-height: 1.3;
     padding: 0.7rem 1rem;
     color: var(--cf7-input-text);
@@ -236,7 +236,8 @@
     background-color: #FFFAFA !important;
 }
 .wpcf7 input:disabled[type=submit],
-.wpcf7 input:disabled[type=submit]:hover {
+.wpcf7 input:disabled[type=submit]:hover
+{
     color: #ffffff;
     background-color: var(--cf7-warning);
     border:0;
@@ -261,7 +262,7 @@
 .wpcf7 form.aborted .wpcf7-response-output,
 .wpcf7 form.spam .wpcf7-response-output,
 .wpcf7 form.invalid .wpcf7-response-output,
-.wpcf7 form.unaccepted .wpcf7-response-output { /* Failed */
+.wpcf7 form.unaccepted .wpcf7-response-output{ /* Failed */
     background-color: var(--cf7-warning-bg) !important;
     color: var(--cf7-warning) !important;
     border: 0 !important;
